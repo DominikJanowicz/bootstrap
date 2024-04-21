@@ -8,48 +8,175 @@
   
   <style>
 body{
-
-background: black;
-
-}
-[class *=col]{
-
-text-align: center;
-background-color: aqua;
+margin:0;
+padding:0;
+background-color: black;
 
 }
+[class *= "col"] {
+
+
+text-align:center;
+color:white;
+border:1px solid black;
+
+
+}
+
 
   </style>
+  
   </head>
   <body>
-    
 <div class="container">
+<div class="text-white m-3">
+  <div class="row g-1">
+   <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 col-xxl-2 bg-success p-2">
+<h3>Lorem, ipsum.</h3>
+<p>Lorem ipsum dolor sit amet.</p>
+   </div>
 
-<div class="row">
-  <div class="col-12 border border-dark">header
-    <div class="row">
-      <div class="col-4 border border-dark">advert #1</div>
-      <div class="col-4 border border-dark">advert #1</div>
-      <div class="col-4 border border-dark">advert #1</div>
+   <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 col-xxl-2 bg-info p-2">
+<h3>Lorem, ipsum.</h3>
+<p>Lorem ipsum dolor sit amet.</p>
+   </div>
+
+   <div class="d-none d-md-block col-md-4 col-lg-3 col-xl-2 col-xxl-2 bg-$purple p-2">
+   <h3>Lorem, ipsum1111.</h3>
+   <p>Lorem ipsum dolor sit amet.</p>
+  </div>
+
+<div class="d-none d-lg-block col-lg-3 col-xl-2 col-xxl-2 bg-danger p-2">
+  <h3>Lorem, ipsum.</h3>
+  <p>Lorem ipsum dolor sit amet.</p>
+</div>
+
+<div class="d-none d-xl-block col-xl-2 col-xxl-2 bg-light
+ p-2">
+  <h3>Lorem, ipsum.</h3>
+  <p>Lorem ipsum dolor sit amet.</p>
+</div>
+
+
+<div class="d-none d-xxl-block col-xxl-2 bg-danger p-2">
+  <h3>Lorem, ipsum.</h3>
+  <p>Lorem ipsum dolor sit amet.</p>
+</div>
+
+</div>
+  </div>
+</div>
+
+<div class="container mt-3">
+<nav class="text-center">
+
+  <a href="#" class="p-2">html</a>
+  <a href="#" class="p-2">css</a>
+  <a href="#" class="p-2">java</a>
+  <a href="#" class="p-2">javascript</a>
+  <a href="#" class="p-2">bootstrap</a>
+  <a href="#" class="p-2">react</a>
+</nav>
+
+</div>
+
+<div class="container mt-3">
+
+ <div class="row">
+<div class="col-12 col-md-8">
+<div class="row mb-4">
+  <div class="col-12 col-md-5">
+    <a href="#"><img src="https://source.unsplash.com/300x300/?code" alt="" class="img-fluid rounded mb-3 mb-md-0 mx-auto d-block"></a>
+  </div>
+<div class="col-12 col-md-7">
+  <article>
+    <header class="mb-3 text-center text-md-start">
+<h3 class="fw-bold my-2">przykładowy artykuł</h3>
+<a href="#" class="badge bg-success text-decoration-none link-light">html</a>
+<a href="#" class="badge bg-danger text-decoration-none link-light">css</a>
+<a href="#" class="badge bg-warning text-decoration-none link-light">javascript</a>
+
+    </header>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium vitae maxime commodi autem earum consequatur quasi veritatis a ipsam adipisci sapiente natus dolor exercitationem libero, quae, nihil numquam omnis. Dicta optio obcaecati nulla. Repellendus, eveniet.</p>
+
+<a href="#" class="btn btn-primary mx-auto d-block w-50 d-md-inline mb-3">czytaj więcej</a>
+  </article>
+</div>
+
+</div>
+
+
+
+
+<div class="row mb-4 mt-5 mt-md-3">
+  <div class="col-12 col-md-5">
+    <a href="#"><img src="https://source.unsplash.com/300x300/?programming" alt="" class="img-fluid rounded mb-3 mb-md-0 mx-auto d-block"></a>
+  </div>
+<div class="col-12 col-md-7">
+  <article>
+    <header class="mb-3 text-center text-md-start">
+<h3 class="fw-bold my-2">przykładowy artykuł</h3>
+<a href="#" class="badge bg-success text-decoration-none link-light">html</a>
+<a href="#" class="badge bg-danger text-decoration-none link-light">css</a>
+<a href="#" class="badge bg-warning text-decoration-none link-light">javascript</a>
+
+    </header>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium vitae maxime commodi autem earum consequatur quasi veritatis a ipsam adipisci sapiente natus dolor exercitationem libero, quae, nihil numquam omnis. Dicta optio obcaecati nulla. Repellendus, eveniet.</p>
+
+<a href="#" class="btn btn-primary mx-auto d-block w-50 d-md-inline">czytaj więcej</a>
+  </article>
+</div>
+
+</div>
+
+</div>
+
+
+
+<!-- menu boczne-->
+
+<div class="col-12 col-md-4 p-4">
+<div class="bg-light rounded p-4 text-dark">
+  <h3>moj blog</h3>
+
+  <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod architecto, voluptas saepe ex recusandae dolore atque accusantium. Architecto, numquam voluptatum.</p>
+</div>
+
+<div class="p-3">
+  <h3>kategorie:</h3>
+  <ul class="list-unstyled mt-3">
+    <li><a href="#" class="p-2">html</a></li>
+    <li><a href="#" class="p-2">css</a></li>
+    <li><a href="#" class="p-2">javascript</a></li>
+  </ul>
+</div>
+<div class="p-4">
+  <div class="col-12 rounded text-white bg-success p-2">
+    <h3>reklama</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, modi?</p>
+  </div>
+
+</div>
+
+</div>
+ </div>
+
+
+
+
+
+</div>
+</div>
+<div class="container">
+  <footer class="p-2 bg-light">
+    <div class="container">
+      <p class="text-center text-dark">
+        excample &copy; wszelkie prawa zaztrzeżone
+      </p>
     </div>
-</div>
-</div>
-
-
-
-<div class="row">
-  <div class="div col-3 border border-dark"></div>
-  <div class="div col-9 border border-dark"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur tenetur dolore dicta, vero nisi unde esse, fugit eos suscipit harum odio ducimus quisquam neque? Fugiat velit nesciunt reprehenderit, ipsa voluptatum est! Iure harum odit vitae. Consectetur fuga magnam harum aut sed. Unde, aut excepturi blanditiis delectus quod fugiat soluta laudantium<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, quae?</p> perspiciatis magnam temporibus placeat provident voluptate cupiditate sed ab tempora sit nemo adipisci perferendis quas ullam dolor. Rem beatae in eligendi totam ipsam eos ipsa sequi. Veritatis deleniti repellendus iure placeat eos culpa atque saepe ab! Perspiciatis, tempora unde. Corrupti aspernatur incidunt doloribus impedit porro, sunt eius error accusantium ad.
-
-  </p></div>
-</div>
-<div class="row">
-<div class="col-12 border border-dark">footer</div>
-
+  </footer>
 </div>
 
-
-</div>
 
 
 
